@@ -8,7 +8,7 @@ function [Xnorm,mus,stds] = normalize(X,mus,stds)
 % be used
 
 % 'Xnorm' is the normalized 'X'
-% output mus and stds are the means and standard deviations used 
+% output 'mus' and 'stds' are the means and standard deviations used 
 % to normalize 'X'
 
 % see http://en.wikipedia.org/wiki/Normalization_(statistics)
