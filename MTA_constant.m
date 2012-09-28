@@ -21,7 +21,7 @@ function [mu_mt,W] = MTA_constant(mu_st,s_st,N,type_estimator,gamma)
 
 [T,~] = size(mu_st);  % number of tasks
 
-if nargin <  % if not provided, assume 1
+if nargin <  5% if not provided, assume 1
     gamma = 1;
 end
 
